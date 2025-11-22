@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact us</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="header">
+      <section class="header__container">
+        <!-- add background image -->
+        <div class="nav__container">
+          <h1 class="header__h1">CHIVOR</h1>
+          <nav class="header__nav">
+            <ul class="header__ul" id="nav-ul">
+              <li><a href="index.html">home</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="services.html">services</a></li>
+              <li><a href="contact.html">contact</a></li>
+            </ul>
+          </nav>
+          <button class="hamburger hamburger--slider" id="menu-btn">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+      </section>
+    </header>
+    <main class="service__main">
+      <section class="contact__container">
+        <h2 class="contact__title">Contact Us</h2>
+        <p class="contact__description">
+          We'd love to hear from you! Whether you have questions about our
+          products, need assistance with an order, or want to provide feedback,
+          our team is here to help. Reach out to us through any of the following
+          methods:
+        </p>
+
+        <section>
+          <h3>we are located at</h3>
+          <address>
+            123 Classic St.<br />
+            Fashion City, FC 45678<br />
+            Email: contact@chivor.com<br />
+            Phone: (123) 456-7890 store hours: mon-fri 9am - 6pm
+          </address>
+          <form
+            action="https://formspree.io/f/xgvqwblq"
+            method="POST"
+            class="contact__form"
+            id="appointment"
+          >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <br />
+            <label for="phone">Your Phone:</label>
+            <input type="text" id="phone" name="phone" required />
+            <br />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <br />
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <br />
+            <button type="submit" class="submit">Send Message</button>
+          </form>
+          <p class="form-success" id="formSuccess" style="display: none">
+            your message has been sent successfully!
+          </p>
+        </section>
+        <br />
+        <div class="map__container" id="map">
+          <iframe
+            src="https://www.google.com/maps?q=nigeria,+rivers+state+port+harcourt,+no+9+ikegwuru+close+rumuagholu&output=embed"
+            style="
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              border: 0;
+            "
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">
+        <a
+          href="https://wa.me/08134860309"
+          target="_blank"
+          rel="noopener noreferrer"
+          >book an appointment</a
+        >
+      </p>
+
+      <ul class="footer__ul">
+        <li><a href="contact.html">contact us</a></li>
+        <li><a href="services.html">our services</a></li>
+
+        <li>
+          <a
+            href="https://www.facebook.com/favour.chinedum.3956"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="images/communication.png"
+              width="512"
+              height="512"
+            />facebook</a
+          >
+        </li>
+        <li>
+          <a
+            href="www.instagram.com/chvor_designs"
+            href="https://www.instagram.com/chvor_designs"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              src="images/insta.png"
+              width="4169"
+              height="4169"
+            />instagram</a
+          >
+        </li>
+        <li>
+          <a
+            href="www.tiktok.com/chvor00"
+            href="https://www.tiktok.com/@chvor00"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img src="images/tiktok.png" width="5000" height="5000" />tiktok</a
+          >
+        </li>
+      </ul>
+
+      <p class="footer__copyright">&copy; 2025 Chivor. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
